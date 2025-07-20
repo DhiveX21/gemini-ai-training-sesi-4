@@ -1,0 +1,42 @@
+{
+  "name": "gemini-ai-api-sesi-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "gemini",
+    "api",
+    "google",
+    "flash",
+    "training",
+    "ai",
+    "express",
+    "nodejs",
+    "api-server",
+    "gpt",
+    "image",
+    "document",
+    "audio",
+    "text-generation"
+  ],
+  "author": "DhiveX",
+  "license": "ISC",
+  "description": "Gemini AI API is a simple API server that allows you to interact with Google Gemini AI for text, image, document, and audio generation.",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "gemini-ai-api-sesi-4",
+  "name": "gemini-api-sesi5",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -18,20 +18,22 @@
     "nodejs",
     "api-server",
     "gpt",
-    "image",
-    "document",
-    "audio",
-    "text-generation"
+    "text-generation",
+    "chatbot"
   ],
   "author": "DhiveX",
   "license": "ISC",
-  "description": "Gemini AI API is a simple API server that allows you to interact with Google Gemini AI for text, image, document, and audio generation.",
+  "description": "Gemini API Chatbot is a simple API server that allows you to interact with Google Gemini AI for text generation.",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
+    "google-auth-library": "^10.1.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
     "morgan": "^1.10.0",
     "multer": "^2.0.1",
     "nodemon": "^3.1.10"
